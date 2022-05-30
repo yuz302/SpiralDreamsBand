@@ -219,6 +219,10 @@ ul#nav li.current a { color: #fe6928; }
    margin-top: 6px;
 }
 
+#performances .description {
+   font-style: italic;
+}
+
 /* ------------------------------------------------------------------ */
 /* Members Section
 /* ------------------------------------------------------------------ */
