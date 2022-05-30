@@ -8,7 +8,7 @@ export const allSocialMedias = [
         link: 'https://instagram.com/',
     },
     {
-        name: 'Youtube',
+        name: 'YouTube',
         link: 'https://youtube.com/',
     },
     {

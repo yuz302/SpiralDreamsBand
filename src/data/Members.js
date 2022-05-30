@@ -10,8 +10,8 @@ export const allMembers = [
         position: 'Guitar',
     },
     {
-        name: 'Shuai',
-        image: 'shuai.jpeg',
+        name: 'Han',
+        image: 'han.jpeg',
         position: 'Guitar',
     },
     {

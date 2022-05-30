@@ -10,7 +10,7 @@ class Performances extends Component {
           {performance.location} <span>&bull;</span>
           <em className="date">{performance.date.toLocaleString([], {year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'})}</em>
         </p>
-        <p>{performance.description}</p>
+        <p className="description">{performance.description}</p>
       </div>
     );
   }

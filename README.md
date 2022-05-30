@@ -17,7 +17,7 @@ git clone https://github.com/yuz302/SpiralDreamsBand.git
 npm install
 ```
 
-3) Start website locally. Host will be started on http://localhost:300
+3) Start website locally. Host will be started on http://localhost:3000
 ```
 npm start
 ```
