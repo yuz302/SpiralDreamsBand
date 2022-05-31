@@ -46,7 +46,7 @@ class Performances extends Component {
         <div className="row">
           <div className="three columns header-col">
             <h1>
-              <span>Past</span>
+              <span>Past Events</span>
             </h1>
           </div>
 
