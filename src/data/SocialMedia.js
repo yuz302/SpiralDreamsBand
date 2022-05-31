@@ -12,7 +12,7 @@ export const allSocialMedias = [
         link: 'https://youtube.com/',
     },
     {
-        name: 'Github',
+        name: 'GitHub',
         link: 'https://github.com/yuz302/SpiralDreamsBand',
     },
 ];
