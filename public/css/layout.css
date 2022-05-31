@@ -20,7 +20,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
@@ -215,7 +215,7 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: 5px;
 }
 #performances .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 16px/24px 'librebaskerville-italic', sans-serif;
    margin-top: 6px;
 }
 
