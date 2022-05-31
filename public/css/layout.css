@@ -233,7 +233,7 @@ ul#nav li.current a { color: #fe6928; }
    padding-bottom: 60px;
 }
 #members h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -346,7 +346,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #social-media h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
