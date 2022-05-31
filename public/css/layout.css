@@ -180,7 +180,7 @@ ul#nav li.current a { color: #fe6928; }
    overflow: hidden;
 }
 
-#performances a, #performances a:visited  { color: #0762f9; }
+#performances a, #performances a:visited  { color: #FE6928; }
 #performances a:hover, #performances a:focus { color: #313131; }
 
 #performances h1 {
@@ -189,7 +189,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
 }
 #performances h1 span {
-   border-bottom: 3px solid #0762f9;
+   border-bottom: 3px solid #FE6928;
    padding-bottom: 6px;
 }
 #performances h3 {
