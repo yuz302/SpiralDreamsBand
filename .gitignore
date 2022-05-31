@@ -136,6 +136,7 @@ dist
 **/*.backup.*
 **/*.back.*
 node_modules
+build
 *.sublime*
 psd
 thumb
