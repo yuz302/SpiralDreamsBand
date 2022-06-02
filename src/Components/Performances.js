@@ -5,9 +5,10 @@ class Performances extends Component {
   transformPerformance(performance) {
     return (
       <div key={performance.name}>
-        <h3>{performance.name}</h3>
+        <h4>{performance.name}</h4>
         <p className="info">
-          {performance.location} <span>&bull;</span>
+          {performance.location}
+          <span>&bull;</span>
           <em className="date">{performance.date.toLocaleString([], {year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'})}</em>
         </p>
         <p className="description">{performance.description}</p>

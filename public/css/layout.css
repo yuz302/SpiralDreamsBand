@@ -20,7 +20,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
@@ -118,7 +118,7 @@ header {
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 18px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -151,9 +151,8 @@ ul#nav li {
 ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
    display: inline-block;
-   padding: 8px 13px;
+   padding: 8px 78px;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
@@ -180,7 +179,7 @@ ul#nav li.current a { color: #fe6928; }
    overflow: hidden;
 }
 
-#performances a, #performances a:visited  { color: #0762f9; }
+#performances a, #performances a:visited  { color: #FE6928; }
 #performances a:hover, #performances a:focus { color: #313131; }
 
 #performances h1 {
@@ -189,7 +188,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
 }
 #performances h1 span {
-   border-bottom: 3px solid #0762f9;
+   border-bottom: 3px solid #FE6928;
    padding-bottom: 6px;
 }
 #performances h3 {
@@ -215,7 +214,7 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: 5px;
 }
 #performances .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 16px/24px 'librebaskerville-italic', sans-serif;
    margin-top: 6px;
 }
 
@@ -233,7 +232,7 @@ ul#nav li.current a { color: #fe6928; }
    padding-bottom: 60px;
 }
 #members h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -346,7 +345,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #social-media h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
