@@ -18,14 +18,18 @@ class Performances extends Component {
 
   render() {
     const currentDate = new Date();
-
+    allPerformances.sort((a, b) => {
+      return a.date < b.date ? 1 : -1;
+    });
     const upcomingEvents = allPerformances.filter(performance => {
       return performance.date >= currentDate;
-    }).map(performance => this.transformPerformance(performance));
+    })
+    .map(performance => this.transformPerformance(performance));
 
     const pastEvents = allPerformances.filter(performance => {
       return performance.date < currentDate;
-    }).map(performance => this.transformPerformance(performance));
+    })
+    .map(performance => this.transformPerformance(performance));
 
     return (
       <section id="performances">

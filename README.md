@@ -7,7 +7,7 @@
 
 ### Steps:
 
-1) Pull remote repo to your local host
+1) Pull the remote repo to your local machine. Create your own remote branch for easy collaboration.
 ```
 git clone https://github.com/yuz302/SpiralDreamsBand.git
 ```
@@ -17,15 +17,15 @@ git clone https://github.com/yuz302/SpiralDreamsBand.git
 npm install
 ```
 
-3) Start website locally. Host will be started on http://localhost:3000
+3) Run this command to start a host locally. Service will be hosted on http://localhost:3000
 ```
 npm start
 ```
-Changes will be reflected in real time on this port with the hot-deploy feature of create-react-app.
+Any local changes will be reflected in real time on this port with the hot-deploy feature of create-react-app.
 
-4) Make changes and commits on mainline
+4) [Make change] Make changes on your branch. Keep commit messages concise and explanatory.
 
- _Note: to make sure you don't check in build, add these in your global gitignore file_
+ _Note: to make sure you don't check in the build folders, add these in your global gitignore file_
 ```
 node_modules
 build
@@ -33,9 +33,11 @@ build
 
  _Note: most data updates can be done in src/data_
 
-5) Once you are finished with your commits, use gh-pages to deploy commits to origin/gh-pages branch
+5) [Pull request] Once you are finished with your commits, [create a pull request](https://homes.cs.washington.edu/~mernst/advice/github-pull-request.html) and get it approved by a team member.
+
+5) [Deploy] Once the changes are approved, merge the pull request to origin/mainline and pull changes on mainline to your local. Then, deploy the changes to the website by executing the following command on mainline. This command will deploy mainline commits to origin/gh-pages branch
 ```
 npm run deploy
 ```
 
-6) Wait for a couple minutes before your changes are propagated to github website hosts.
+7) Wait for a couple minutes for your changes to be propagated to the github website hosts.
