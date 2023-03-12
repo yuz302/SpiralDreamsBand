@@ -3,9 +3,11 @@ import { allPerformances } from '../data/Performances';
 
 class Performances extends Component {
   transformPerformance(performance) {
+    const header = performance.recording ?
+      <a href={performance.recording} target="_blank" rel="noreferrer">{performance.name}</a> : performance.name;
     return (
       <div key={performance.name}>
-        <h4>{performance.name}</h4>
+        <h4>{header}</h4>
         <p className="info">
           {performance.location}
           <span>&bull;</span>

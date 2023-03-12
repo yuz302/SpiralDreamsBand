@@ -5,11 +5,11 @@ export const allSocialMedias = [
     },
     {
         name: 'Instagram',
-        link: 'https://instagram.com/',
+        link: 'https://www.instagram.com/spiraldreamsband/?hl=en',
     },
     {
         name: 'YouTube',
-        link: 'https://youtube.com/',
+        link: 'https://www.youtube.com/@spiraldreamsband',
     },
     {
         name: 'GitHub',

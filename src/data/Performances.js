@@ -37,6 +37,24 @@ export const allPerformances = [
         name: 'Fall 2022 - Seattle Chinese Band Concert',
         songs: [],
         description: 'Part II of Fall 2022 - Seattle Chinese Band Concert. Bands performing tonight are Spring Roll, Need Some Fries, Fleck, and Spiral Dreams',
-        location: 'Seattle Drum School of Music, Seattle, WA 98108'
+        location: 'Seattle Drum School of Music, Seattle, WA 98108',
+        recording: 'https://www.youtube.com/watch?v=rw0Fx-TkuNM&t=73s',
     },
+    {
+        date: new Date(2023, 0, 7, 20),
+        name: 'Stand by Me - A Benefit Pop Concert',
+        location: 'Resonance Events, Bellevue, WA 98004',
+        description: 'Performed by Chime Band & Friends, for underprevileged kids in China. Supported by SESP team of Little Masters Club',
+        recording: 'https://www.youtube.com/watch?v=_SAcFuE60lY',
+    },
+    {
+        date: new Date(2023, 3, 15, 19),
+        name: '西雅图脱口秀大会',
+        location: 'TBD',
+    },
+    {
+        date: new Date(2023, 4, 5, 19),
+        name: 'Seattle Chinese Band Concert',
+        location: 'Seattle Drum School of Music, Seattle, WA 98108',
+    }
 ];
