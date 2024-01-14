@@ -5,14 +5,14 @@ export const allSocialMedias = [
     },
     {
         name: 'Instagram',
-        link: 'https://www.instagram.com/spiraldreamsband/?hl=en',
+        link: 'https://www.instagram.com/spiral_dreams_band?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
     },
     {
         name: 'YouTube',
         link: 'https://www.youtube.com/@spiraldreamsband',
     },
     {
-        name: 'GitHub',
-        link: 'https://github.com/yuz302/SpiralDreamsBand',
+        name: '小红书',
+        link: 'https://www.xiaohongshu.com/user/profile/656c403a00000000190126c7',
     },
 ];

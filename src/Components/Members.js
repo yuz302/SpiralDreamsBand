@@ -13,7 +13,7 @@ class Members extends Component {
           <div className="item-wrap">
             <Zmage alt={member.name} src={memberImage} />
             <div className="member-info">
-              {member.name} <em>- {member.position}</em>
+              <em>{member.name} - {member.position}</em>
             </div>
           </div>
         </div>

@@ -1,15 +1,5 @@
 export const allMembers = [
     {
-        name: 'Melody',
-        image: 'melody.jpeg',
-        position: 'Vocal',
-    },
-    {
-        name: 'Ming',
-        image: 'ming.jpeg',
-        position: 'Guitar',
-    },
-    {
         name: 'Han',
         image: 'han.jpeg',
         position: 'Guitar',
@@ -23,5 +13,20 @@ export const allMembers = [
         name: 'Diana',
         image: 'diana.jpeg',
         position: 'Drums',
-    }
+    },
+    {
+        name: 'Ken',
+        image: 'ken.jpeg',
+        position: 'Vocal',
+    },
+    {
+        name: 'Lemon',
+        image: 'lemon.jpeg',
+        position: 'Vocal',
+    },
+    {
+        name: 'Ming',
+        image: 'ming.jpeg',
+        position: 'Guitar',
+    },
 ];

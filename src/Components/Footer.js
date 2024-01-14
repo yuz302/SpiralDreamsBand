@@ -9,7 +9,7 @@ class Footer extends Component {
           <Fade bottom>
             <div className="twelve columns">
               <ul className="copyright">
-                <li>&copy; Copyright 2022 Spiral Dreams</li>
+                <li>&copy; Copyright 2024 Spiral Dreams</li>
               </ul>
             </div>
           </Fade>
